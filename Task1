@@ -1,0 +1,31 @@
+task 1
+fun main() {
+ 
+ 
+   
+    val university = "Imam Abdulrahman Bin Faisal University"
+    val courseCode = "CSC 402"
+    val creditHours = 3
+    var studentsEnrolled = 28 // var because the value changes (add/drop)
+    val isElective = false
+
+    // TODO: first sentence
+    println("$courseCode has $studentsEnrolled students enrolled ($creditHours credit hours).")
+
+    // TODO: add two students
+    studentsEnrolled += 2
+
+    // TODO: second sentence
+    println("$courseCode has $studentsEnrolled students enrolled ($creditHours credit hours).")
+
+    // Print the length of university
+    println("University name length: ${university.length}")
+
+    // courseCode = "CSC 403" // Val cannot be reassigned
+
+
+
+}
+
+
+
